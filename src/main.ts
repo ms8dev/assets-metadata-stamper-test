@@ -1,6 +1,6 @@
-import { AssetsApiClient, AssetsPluginContext, queryForSelection } from '@woodwing/assets-client-sdk';
+import { AssetsApiClient, AssetsPluginContext, queryForSelection } from './assets-client-sdk';
 import './style.css';
-import { Asset } from '@woodwing/assets-client-sdk/dist/model/asset';
+import { Asset } from './assets-client-sdk/model/asset';
 import * as config from '../config.js';
 
 const fieldsToIgnore = ['filename', 'previewState', 'thumbnailState'];

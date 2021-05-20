@@ -43,5 +43,8 @@ module.exports = {
     },
     resolve: {
         extensions: ['.ts', '.js'],
+    },
+    stats: {
+        errorDetails: true,
     }
 };
